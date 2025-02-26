@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(72, 66, 82);
+    font-family: Arial, sans-serif; /* fonte*/
+    display: flex; /* usar o FlexBox para exibir o conteúdo*/
+    justify-content: center; /* centraliza na horizontal*/
+    height: 100vh; /*altura da página é todo conteúdo dela*/
+    align-items: center; /*centraliza na vertical*/
+}
+
+.container {
+background-color: rgb(64, 52, 71);
+padding: 40px; /* espaçamento interno*/
+border-radius: 10px; /*bordas arredondadas*/
+box-shadow: 4px 5px; /*sombreamento 4px (horizontal) 5px (vertical)*/
+text-align: center; /* centraliza o texto*/
+}
+
+h2 {
+    /*border: 1px solid black;    cria uma borda, importante usar o solid*/
+    padding: 5px;
+}
+
+button {
+    background-color: rgb(43, 20, 43);
+    color: white;
+    border: none;
+    padding: 5px;/* espacamento*/
+    border-radius: 5px;/*bordas arrendondadas*/
+    cursor: pointer; /*mouse vira um ponteiro*/
+}
+
+/*cria efeito de passar o mouse no botão*/
+button:hover {
+    background-color: rgb(96, 50, 96);
+}
+
+    .imagem{
+        border-radius: 20%;
+        width: 130px; /*largura*/
+        height: 130px; /*altura*/
+        margin-bottom: 10px; /* espaçamento externo*/
+    }
+
+    
